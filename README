@@ -1,6 +1,8 @@
 Microsoft live connect api doesnt allow the redirect domain to be localhost.
 There is a hack that makes localhost development possible..
 
+Do this only if you want it to work in localhost, it works fine like other accounts packages as usual on the actual server..
+
 the redirect domain in the app console in
 https://manage.dev.live.com/Applications/Create must be http://anilkaraka.com
 and change your hosts file in your computer such that http://anilkaraka.com redirects
